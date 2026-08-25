@@ -1,6 +1,6 @@
 {"name": "Saas-reservation",
   // Utilise votre configuration Docker existante
-  "dockerComposeFile": "../docker-compose.yml",
+  "dockerComposeFile": "../saas-reservation-ai/docker-compose.yml",
   // S'ancre sur le conteneur du Dashboard Web
   "service": "web-dashboard",
   "workspaceFolder": "/workspace",
