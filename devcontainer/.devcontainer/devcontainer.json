@@ -1,6 +1,9 @@
 {"name": "Saas-reservation",
-  // Utilise votre configuration Docker existante"dockerComposeFile": "../docker-compose.yml",
-  // S'ancre sur le conteneur du Dashboard Web"service": "web-dashboard","workspaceFolder": "/workspace",
+  // Utilise votre configuration Docker existante
+  "dockerComposeFile": "../docker-compose.yml",
+  // S'ancre sur le conteneur du Dashboard Web
+  "service": "web-dashboard",
+  "workspaceFolder": "/workspace",
   
   // Installe les extensions VS Code exclusives pour le Développeur 3
   "customizations": {
